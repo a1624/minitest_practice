@@ -4,10 +4,6 @@ source 'https://rubygems.org'
 gemspec
 
 group :development do
-  gem 'guard'
-end
-
-group :development do
   gem 'guard' # NOTE: this is necessary in newer versions
   gem 'guard-minitest'
 end
